@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['berdiri', 'berjalan', 'berlari', 'jatuh']
+
+roboflow:
+  workspace: skripsi-u18dy
+  project: human-action-recognition-2000
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/skripsi-u18dy/human-action-recognition-2000/dataset/7
